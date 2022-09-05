@@ -66,7 +66,7 @@ cross_interaction_mode = 'neglect'
 non_interacting_site_pairs = [['s','b']]
 
 
-interaction_scaling_constraint_dict = {'NH2_b': [0, 0, 1.358]}
+interaction_scaling_constraint_dict = {'NH2_b': [0, 0, 1.50]}
 
 data_file = 'aor.pkl'
 input_file = 'energies.txt'
