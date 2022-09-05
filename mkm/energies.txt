@@ -1,0 +1,181 @@
+surface_name	site_name	species_name	formation_energy	frequencies	reference
+None	gas	pe	0.0	0	gas phase calcs
+None	gas	H2	0.0	0	Made via Hemanth Code.
+None	gas	NH3	0.0	0	Made via Hemanth Code.
+None	gas	N2	0.207	0	Made via Hemanth Code.
+None	gas	H2O	0.0	0	Made via Hemanth Code.
+
+Pt3Ir	100	NH-NH	0.671	0	Proxy
+Pt3Ir	100	N-NH	1.053	0	Proxy
+Pt3Ir	100	N-N	1.560	0	Proxy
+Pt3Ir	100	NH2	-0.172	0	Made for AOR.
+Pt3Ir	100	NH	0.326	0	Made for AOR.
+Pt3Ir	100	N	0.668	0	Made for AOR.
+Pt3Ir	ds	N	-4.69	0	DFT binding energy.
+Pt3Ir	100	NN	1.020	0	Made for AOR.
+Pt3Ir	100	NNH	0.800	0	Made for AOR.
+Pt3Ir	100	HNNH	0.639	0	Made for AOR.
+Pt3Ir	100	pe-NH	0.560	0	Made for AOR.
+Pt3Ir	100	pe-N	1.045	0	Made for AOR.
+Pt3Ir	b	NH2	-0.172	0	Made for AOR.
+Pt3Ir	b	pe-NH	0.560	0	Made for AOR.
+Pt3Ir	b	pe-N	0.911	0	Made for AOR.
+Pt3Ir	b	NH	0.201	0	Made for AOR.
+Pt3Ir	b	N	0.567	0	Made for AOR.
+Pt3Ir	db	N	-4.79	0	DFT binding energy.
+
+Pt	100	NH-NH	1.600	0	Proxy
+Pt	100	N-NH	2.028	0	Proxy
+Pt	100	N-N	2.955	0	Proxy
+Pt	100	NH3	0.007	0	Made for AOR.
+Pt	100	NH2	0.1124	0	Made for AOR.
+Pt	100	NH	1.108	0	Made for AOR.
+Pt	100	N	-4.01	0	Made for AOR.
+Pt	ds	N	-4.01	0	Made for AOR.
+Pt	100	OH	0.469	0	Made for AOR.
+Pt	100	NN	1.438	0	Made for AOR.
+Pt	100	NNH	1.298	0	Made for AOR.
+Pt	100	HNNH	0.952	0	Made for AOR.
+Pt	100	pe-NH	0.897	0	Made for AOR.
+Pt	100	pe-N	1.976	0	Made for AOR.
+Pt	b	NH2	0.1124	0	Made for AOR.
+Pt	b	pe-NH	0.897	0	Made for AOR.
+Pt	b	pe-N	1.461	0	Made for AOR.
+Pt	b	N	-4.08	0	Made for AOR.
+Pt	db	N	-4.08	0	Made for AOR.
+Pt	b	NH	0.639	0	Made for AOR.
+
+Ir	100	NH-NH	0.643	0	Proxy
+Ir	100	N-NH	1.081	0	Proxy
+Ir	100	N-N	1.856	0	Proxy
+Ir	100	NH3	-.048	0	Made for AOR.
+Ir	100	NH2	-.156	0	Made for AOR.
+Ir	100	NH	0.378	0	Made for AOR.
+Ir	100	N	-4.53	0	Made for AOR.
+Ir	ds	N	-4.53	0	Made for AOR.
+Ir	100	NN	0.986	0	Made for AOR.
+Ir	100	NNH	0.737	0	Made for AOR.
+Ir	100	HNNH	0.450	0	Made for AOR.
+Ir	100	pe-NH	0.678	0	Made for AOR.
+Ir	100	pe-N	1.107	0	Made for AOR.
+Ir	b	NH2	-.156	0	Made for AOR.
+Ir	b	pe-NH	0.678	0	Made for AOR.
+Ir	b	pe-N	0.801	0	Made for AOR.
+Ir	b	N	-4.75	0	Made for AOR.
+Ir	db	N	-4.75	0	Made for AOR.
+Ir	b	NH	0.098	0	Made for AOR.
+
+Pd	100	NH-NH	2.733	0	Proxy
+Pd	100	N-NH	3.153	0	Proxy
+Pd	100	N-N	3.829	0	Proxy
+Pd	100	NH3	0.034	0	Made for AOR.
+Pd	100	NH2	0.468	0	Made for AOR.
+Pd	100	NH	0.850	0	Made for AOR.
+Pd	100	N	-4.17	0	Made for AOR.
+Pd	ds	N	-4.17	0	Made for AOR.
+Pd	100	NN	1.134	0	Made for AOR.
+Pd	100	NNH	1.550	0	Made for AOR.
+Pd	100	HNNH	1.481	0	Made for AOR.
+Pd	100	pe-NH	1.266	0	Made for AOR.
+Pd	100	pe-N	1.637	0	Made for AOR.
+Pd	b	NH2	0.468	0	Made for AOR.
+Pd	b	pe-NH	1.266	0	Made for AOR.
+Pd	b	pe-N	2.083	0	Made for AOR.
+Pd	b	N	-3.44	0	Made for AOR.
+Pd	db	N	-3.44	0	Made for AOR.
+Pd	b	NH	1.198	0	Made for AOR.
+
+Au	100	NH-NH	4.752	0	Proxy
+Au	100	N-NH	6.08	0	scaling predicted
+Au	100	N-N	6.69	0	scaling predicted
+Au	100	NH2	1.033	0	Made for AOR.
+Au	100	NH	2.509	0	Made for AOR.
+Au	100	N	-1.67	0	Made for AOR.
+Au	ds	N	-1.67	0	Made for AOR.
+Au	100	NN	3.648	0	Made for AOR.
+Au	100	NNH	3.580	0	Made for AOR.
+Au	100	HNNH	3.211	0	Made for AOR.
+Au	100	pe-NH	1.869	0	scaling predicted
+Au	100	pe-N	3.644	0	scaling predicted
+Au	b	NH2	1.033	0	Made for AOR.
+Au	b	pe-NH	1.869	0	scaling predicted
+Au	b	pe-N	3.258	0	scaling predicted
+Au	b	NH	2.185	0	Made for AOR.
+Au	b	N	-1.57	0	Made for AOR.
+Au	db	N	-1.57	0	Made for AOR.
+
+Ag	100	NH-NH	5.479	0	Proxy
+Ag	100	N-NH	7.11	0	scaling predicted
+Ag	100	N-N	7.67	0	scaling predicted
+Ag	100	N	-1.88	0	Made for AOR.
+Ag	ds	N	-1.88	0	Made for AOR.
+Ag	100	NH	2.198	0	Made for AOR.
+Ag	100	NN	3.101	0	Made for AOR.
+Ag	100	NNH	3.750	0	Made for AOR.
+Ag	100	HNNH	3.49	0	Made for AOR.
+Ag	100	NH2	1.073	0	Made for AOR.
+Ag	100	pe-NH	2.235	0	scaling predicted
+Ag	100	pe-N	3.274	0	scaling predicted
+Ag	b	NH2	1.073	0	Made for AOR.
+Ag	b	pe-NH	2.235	0	scaling predicted
+Ag	b	pe-N	3.826	0	scaling predicted
+Ag	b	N	-0.91	0	Made for AOR.
+Ag	db	N	-0.91	0	Made for AOR.
+Ag	b	NH	2.662	0	Made for AOR.
+
+Pt3RuCo	100	NH-NH	0.643	0	Proxy
+Pt3RuCo	100	N-NH	1.081	0	Proxy
+Pt3RuCo	100	N-N	1.856	0	Proxy
+Pt3RuCo	100	NH3	-.048	0	Made for AOR.
+Pt3RuCo	100	NH2	-.156	0	Made for AOR.
+Pt3RuCo	100	NH	0.378	0	Made for AOR.
+Pt3RuCo	100	N	0.582	0	Made for AOR.
+Pt3RuCo	100	NN	0.986	0	Made for AOR.
+Pt3RuCo	100	NNH	0.737	0	Made for AOR.
+Pt3RuCo	100	HNNH	0.450	0	Made for AOR.
+Pt3RuCo	100	pe-NH	0.678	0	Made for AOR.
+Pt3RuCo	100	pe-N	1.107	0	Made for AOR.
+Pt3RuCo	b	NH2	-.156	0	Made for AOR.
+Pt3RuCo	b	pe-NH	0.678	0	Made for AOR.
+Pt3RuCo	b	pe-N	0.801	0	Made for AOR.
+Pt3RuCo	b	N	1.150	0	Made for AOR.
+Pt3RuCo	b	NH	0.098	0	Made for AOR.
+
+Rh	100	NH-NH	5.479	0	Proxy
+Rh	100	N-NH	7.11	0	scaling predicted
+Rh	100	N-N	7.67	0	scaling predicted
+Rh	100	N	-4.82	0	Made for AOR.
+Rh	ds	N	-4.82	0	Made for AOR.
+Rh	100	NH	2.198	0	Made for AOR.
+Rh	100	NN	3.101	0	Made for AOR.
+Rh	100	NNH	3.750	0	Made for AOR.
+Rh	100	HNNH	3.49	0	Made for AOR.
+Rh	100	NH2	1.073	0	Made for AOR.
+Rh	100	pe-NH	2.235	0	scaling predicted
+Rh	100	pe-N	3.274	0	scaling predicted
+Rh	b	NH2	1.073	0	Made for AOR.
+Rh	b	pe-NH	2.235	0	scaling predicted
+Rh	b	pe-N	3.826	0	scaling predicted
+Rh	b	N	-4.51	0	Made for AOR.
+Rh	db	N	-4.51	0	Made for AOR.
+Rh	b	NH	2.662	0	Made for AOR.
+
+Pt3RuCoV2	100	NH-NH	0.643	0	Proxy
+Pt3RuCoV2	100	N-NH	1.081	0	Proxy
+Pt3RuCoV2	100	N-N	1.856	0	Proxy
+Pt3RuCoV2	100	NH3	-.048	0	Made for AOR.
+Pt3RuCoV2	100	NH2	-.156	0	Made for AOR.
+Pt3RuCoV2	100	NH	0.378	0	Made for AOR.
+Pt3RuCoV2	100	N	0.384	0	Made for AOR.
+Pt3RuCoV2	ds	N	-4.97	0	Made for AOR.
+Pt3RuCoV2	100	NN	0.986	0	Made for AOR.
+Pt3RuCoV2	100	NNH	0.737	0	Made for AOR.
+Pt3RuCoV2	100	HNNH	0.450	0	Made for AOR.
+Pt3RuCoV2	100	pe-NH	0.678	0	Made for AOR.
+Pt3RuCoV2	100	pe-N	1.107	0	Made for AOR.
+Pt3RuCoV2	b	NH2	-.156	0	Made for AOR.
+Pt3RuCoV2	b	pe-NH	0.678	0	Made for AOR.
+Pt3RuCoV2	b	pe-N	0.801	0	Made for AOR.
+Pt3RuCoV2	b	N	0.266	0	Made for AOR.
+Pt3RuCoV2	db	N	-5.09	0	Made for AOR.
+Pt3RuCoV2	b	NH	0.098	0	Made for AOR.

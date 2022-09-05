@@ -1,0 +1,103 @@
+rxn_expressions = [
+		'H2O_g -> H2O_g',
+		'pe_g -> pe_g',
+		'NH3_g -> NH3_g' ,
+		'H2_g -> H2_g' ,  
+
+		'N2_g + 2*_db <-> 2N_db',
+		'N2_g + 2*_ds <-> 2N_ds',
+
+		'NH3_g + *_b <-> NH2_b +  pe_g; prefactor=6213200846432.89',
+		# the dehydrogenation on the bridge sites
+		'NH2_b <-> pe-NH_b <-> NH_b + pe_g',
+		'NH_b <->  pe-N_b <-> N_b +  pe_g',
+
+		# the dehydrogenation on the normal sites
+		'NH2_b + *_s <-> pe-NH*_s + *_b <-> NH*_s + pe_g + *_b',
+		'NH* <->  pe-N* <-> N* +  pe_g',
+		
+		# the diffusion from normal sites to dimerization active sites
+                'NH_s + *_b <-> NH_b + *_s',	
+		'N_s + *_b <-> N_b + *_s',
+
+                '2NH_s <-> NH-NH* + *_s <-> HNNH* + *_s',
+                '2N_s <-> N-N* + *_s <-> NN* + *_s',
+
+                '2NH_b + *_s <-> NH-NH* + 2*_b  <-> HNNH* + 2*_b',
+       	        'NH_b + N_b + *_s <-> N-NH* + 2*_b <-> NNH* + 2*_b',
+	        '2N_b + *_s <-> N-N* + 2*_b <-> NN* + 2*_b',
+
+		'HNNH* <-> ^0.20eV_s <-> NNH* + pe_g',
+		'NNH* <-> ^0.20eV_s <-> NN* + pe_g',
+		'NN* <-> N2_g + *_s',
+
+		]
+
+surface_names = ['Pt', 'Ir', 'Pd', 'Ag' , 'Au', 'Pt3Ir', 'Rh', 'Pt3RuCoV2']
+descriptor_names = ['N_db', 'N_ds']
+descriptor_ranges = [[-5.3, -.80], [-5.3, -.80]]
+
+resolution = [49, 49]
+
+temperature = 298.15
+voltage = 0.3
+
+beta = 0.5
+
+species_definitions = {}
+
+species_definitions['H2O_g'] = {'pressure': 1.0}
+species_definitions['NH3_g'] = {'pressure': 0.1}
+species_definitions['N2_g'] = {'pressure': 0}
+species_definitions['pe_g'] = {'pressure':1.0}
+species_definitions['H2_g'] = {'pressure':1.0}
+
+species_definitions['s'] = {'site_names': ['100'], 'total': 1.0}
+species_definitions['b'] = {'site_names': ['b'], 'total': 1.0}
+
+species_definitions['ds'] = {'site_names': ['ds'], 'total': 1.0}
+species_definitions['db'] = {'site_names': ['db'], 'total': 1.0}
+
+adsorbate_interaction_model = 'first_order'
+interaction_response_function = 'smooth_piecewise_linear' #use "smooth piecewise linear" interactions
+species_definitions['b']['interaction_response_parameters'] = {'cutoff':0.25,'smoothing':0.01}
+species_definitions['NH2_b'] = {'self_interaction_parameter':[1.358, 1.358, 1.358, 1.358, 1.358, 1.358, 1.358, 1.358]}
+cross_interaction_mode = 'neglect'
+non_interacting_site_pairs = [['s','b']]
+
+
+interaction_scaling_constraint_dict = {'NH2_b': [0, 0, 1.358]}
+
+data_file = 'aor.pkl'
+input_file = 'energies.txt'
+
+gas_thermo_mode = 'frozen_gas'
+adsorbate_thermo_mode = 'frozen_adsorbate'
+electrochemical_thermo_mode = 'simple_electrochemical'
+
+scaling_constraint_dict = {'NH2_b':[0.326, 0, 1.560],
+                          'NH_s':[0, 0.696, 3.716],
+                          'NH_b':[0.623, 0, 3.227],
+                          'N_s':[0, 1, 5.265],
+                          'N_b':[1, 0, 5.253],
+
+                          'HNNH_s':[0.724 , 0, 4.291],
+                          'NNH_s':[0.339, 0, 2.734],
+                          'NN_s':[-0.107, 0, 0.473],
+
+                          'NH-NH_s' : [1.241, 0, 7.221],	
+                          'N-NH_s' : [1.340, 0, 7.896],
+	  		  'N-N_s': [1.435, 0, 8.537],
+
+			 'pe-NH_b': [0.436, 0, 2.761],
+			 'pe-NH_s': [0.436, 0, 2.761],
+
+			 'pe-N_s': [0.378, 0, 2.821],
+			 'pe-N_b': [0.378, 0, 2.821],
+                        
+                        }
+
+decimal_precision = 200
+tolerance = 1e-50
+max_rootfinding_iterations = 1000
+max_bisections = 20
